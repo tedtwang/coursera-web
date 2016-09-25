@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+}
+
+h1 {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.section {
+  position: relative;
+  color: white;
+  padding: 30px 10px 10px 10px;
+  background: #BFBCCB;
+  border: 1px solid black;
+  margin: 0px 5px 10px 5px;
+  overflow: hidden;
+}
+
+.sectionTitle {
+  position: absolute;
+  padding: 0px 4px 0px 4px;
+  top: 0;
+  right: 0;
+  color: white;
+  border: 1px solid black;
+  font-size: 18px;
+}
+
+.bg1 {
+  background: #857885;
+}
+
+.bg2 {
+  background: #87A0B2;
+}
+
+.bg3 {
+  background: #A4BEF3;
+}
+
+/********** Desktop **********/
+@media (min-width: 992px) {
+  .desktop4 {
+    float: left;
+    width: 33.33%;
+  }
+}
+/********** Tablet **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .tablet6, .tablet12 {
+    float: left;
+  }
+  .tablet6 {
+    width: 50%;
+  }
+  .tablet12 {
+    clear: left;
+    width: 100%;
+  }
+}
+
+/********** Phone **********/
+@media (max-width: 767px) {
+  .phone12 {
+    clear: left;
+    width: 100%;
+  }
+}
